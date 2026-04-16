@@ -1,0 +1,9 @@
+CREATE TABLE TEST_EMP (
+    id NUMBER,
+    name VARCHAR2(50),
+    created_date DATE
+);
+
+INSERT INTO TEST_EMP VALUES (1, 'Priyal', SYSDATE);
+
+COMMIT;
