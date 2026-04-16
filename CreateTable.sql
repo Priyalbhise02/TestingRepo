@@ -1,0 +1,10 @@
+CREATE TABLE PRIYALEMP (
+    emp_id NUMBER PRIMARY KEY,
+    emp_name VARCHAR2(50),
+    salary NUMBER(10,2),
+    hire_date DATE
+);
+
+INSERT INTO PRIYALEMP VALUES (1, 'Priyal', 50000, SYSDATE);
+
+COMMIT;
