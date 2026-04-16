@@ -1,0 +1,1 @@
+INSERT INTO PROJECTS VALUES (1, 'FlexDeploy Automation', SYSDATE, 100000);
